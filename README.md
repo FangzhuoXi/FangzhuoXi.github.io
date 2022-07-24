@@ -1,2 +1,2 @@
-# Fangzhuo-Web-Page
+# fangzhuoxi.github.io
 Personal Website
