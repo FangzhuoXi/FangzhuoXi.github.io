@@ -4,7 +4,8 @@ html {
 body {
   font-family: 'Merriweather', serif;
   text-align: center;
-  background-color: #fefdca;
+  background-color: #fffaf1;
+  width: 100%;
   height: 100%;
   margin: auto;
   display: grid;
@@ -14,13 +15,13 @@ body {
 h1 {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
-  font-size: 5.625rem;
-  /* color: #FEFDCA; */
+  font-size: 5vw;
+  /* color: #b39c72; */
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
-  /* color: #FEFDCA; */
-  font-size: 2.5rem;
+  color: #b39c72;
+  font-size: 2vw;
 }
 .header-container {
   /* background-color: #94B49F; */
@@ -35,15 +36,21 @@ h2 {
 .body-container {
   /* background-color: #FCF8E8; */
   /* margin: 1% auto; */
-  grid-row-start: 2;
+  grid-row-start: 3;
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 5;
   position: relative;
 }
+.bottom-cloud {
+  max-width: 50%;
+  height: auto;
+}
 .bottom-mountain {
-  grid-row-start: 4;
-  grid-row-end: 5;
+  max-width: 100%;
+  height: auto;
+  /* grid-row-start: 4;
+  grid-row-end: 5; */
 }
 
 .bottom-container {
@@ -58,22 +65,25 @@ h2 {
   margin: auto;
 }
 .footer-link {
-  font-size: 2rem;
-  color: #5a8f7b;
+  font-size: 2vw;
+  color: #6083b3;
   margin: 5%;
 }
 .footer-link:hover {
-  color: #0f3d3e;
+  color: #152783;
 }
 .nav-link {
-  font-size: 2rem;
-  color: #5a8f7b;
+  font-size: 2vw;
+  color: #6083b3;
 }
 .nav-link:hover {
-  color: #0f3d3e;
+  color: #035aa6;
+}
+.cp-right {
+  color: #6083b3;
 }
 .nav-item {
-  margin: auto 10%;
+  margin: auto;
 }
 .navbar {
 }
