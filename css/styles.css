@@ -16,7 +16,6 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-weight: bold;
   font-size: 5vw;
-  /* color: #b39c72; */
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -24,7 +23,6 @@ h2 {
   font-size: 2vw;
 }
 .header-container {
-  /* background-color: #94B49F; */
   margin: 1% auto;
   width: 100%;
   grid-row-start: 1;
@@ -32,15 +30,29 @@ h2 {
   grid-column-start: 2;
   grid-column-end: 5;
 }
-
+.nav-item {
+  margin: auto;
+}
+.nav-link {
+  font-size: 2vw;
+  color: #6083b3;
+}
+.nav-link:hover {
+  color: #1b57a6;
+}
 .body-container {
-  /* background-color: #FCF8E8; */
-  /* margin: 1% auto; */
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 5;
   position: relative;
+}
+.upper-cloud {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  position: absolute;
+  left: 80%;
 }
 .bottom-cloud {
   max-width: 50%;
@@ -49,17 +61,12 @@ h2 {
 .bottom-mountain {
   max-width: 100%;
   height: auto;
-  /* grid-row-start: 4;
-  grid-row-end: 5; */
 }
-
 .bottom-container {
-  /* background-color: #94B49F; */
   grid-row-start: 5;
   grid-column-start: 2;
   grid-column-end: 5;
 }
-
 .communication {
   width: 15%;
   margin: auto;
@@ -72,21 +79,12 @@ h2 {
 .footer-link:hover {
   color: #152783;
 }
-.nav-link {
-  font-size: 2vw;
-  color: #6083b3;
-}
-.nav-link:hover {
-  color: #035aa6;
-}
+
 .cp-right {
   color: #6083b3;
+  font-size: 1vw;
 }
-.nav-item {
-  margin: auto;
-}
-.navbar {
-}
+
 .card-container {
   width: 100%;
   height: 100%;
@@ -97,7 +95,6 @@ h2 {
   margin: 5% auto;
   width: 60%;
 }
-
 .card-title {
   font-weight: bold;
 }
