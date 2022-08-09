@@ -46,6 +46,7 @@ h2 {
   grid-column-start: 2;
   grid-column-end: 5;
   position: relative;
+  overflow: hidden;
 }
 .upper-cloud {
   display: block;
@@ -68,7 +69,7 @@ h2 {
   grid-column-end: 5;
 }
 .communication {
-  width: 15%;
+  width: 30%;
   margin: auto;
 }
 .footer-link {
@@ -97,6 +98,7 @@ h2 {
 }
 .card-title {
   font-weight: bold;
+  color: #6083b3;
 }
 .card-text {
   font-weight: bold;
